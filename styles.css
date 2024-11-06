@@ -1,0 +1,137 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Header Section */
+header {
+  background-color: #f5f5f5;
+  padding: 2rem 1rem;
+  text-align: center;
+  background-image: url(hero-image.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 58vh;
+  width: 100%; 
+}
+
+header .logo img {
+  height: 60px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
+  color: #2e2e2e;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.btn-main {
+  background-color: #4caf50;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 1.5rem;
+}
+
+.btn-main:hover {
+  background-color: #45a049;
+}
+
+/* Features Grid Section */
+.features-grid {
+  /* display: grid; */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 4rem 2rem;
+  background-color: #f0f4f8;
+  text-align: center;
+}
+
+.feature img {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+.feature h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.feature .btn {
+  padding: 0.8rem 1.5rem;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.feature .btn:hover {
+  background-color: #45a049;
+}
+
+/* Statistics Section */
+.statistics {
+  background-color: #ffe9e9;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.statistics h2 {
+  font-size: 1.7rem;
+  margin-bottom: 1.5rem;
+}
+
+.statistics .map {
+  max-width: 100%;
+  margin-bottom: 2rem;
+}
+
+.statistics .stats {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+
+.stats-item {
+  display: inline-block;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin-top: 3rem;
+}
+
+footer p {
+  margin: 0.5rem 0;
+}
